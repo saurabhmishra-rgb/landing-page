@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #484747;
+}
+
+.header {
+    background: url('Nature.77.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(40, 172, 184);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color:rgb(40, 172, 184);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+}
+.nav ul li a:hover{
+  
+    -webkit-text-stroke: 1px white;
+}
+
+.header-content {
+    max-width: 600px;
+    font-style: italic;
+}
+
+.header-content h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 3px #28a745;
+}
+
+.header-content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.about, .gallery, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2, .gallery h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+}
+.about{
+    background-color: #000000;
+    background: url('Nature.77.jpg') no-repeat center center/cover;
+    color: white;
+  font-style: italic;
+  font-size: 25px;
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+}
+.contact{
+   background: url('Landscape.jpg.jpg') no-repeat center center/cover;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+    height: 75vh;
+
+}
+.gallery{
+   background-color: gray;
+    color: whitesmoke;
+    font-style: italic;
+    
+}
+ 
+.btn:hover{
+    -webkit-text-stroke: 1px white;
+   
+}
+.contact{
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(5px);
+}
+form button{
+    padding: 0.7rem 1.5rem;
+    background-color: #333;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: #555;
+}
+ .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+ }
+ .form-group{
+    margin-top: 1rem;
+    width:100%;
+    max-width: 400px;
+ 
+ }
+ .form-group textarea{
+     width:100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        color: white;
+        font-size: 20px;
+        background-color: #333;
+        border-radius: 5px;
+     }
+     #email{
+        background-color: #333;
+        width: 50%;
+        padding: 0.5rem;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+     #name{
+        background-color: #333;
+        width: 50%;
+        padding: 0.5rem;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+     .contact p{
+        -webkit-text-stroke: 0.03rem;
+            font-size: 25px;
+     }
